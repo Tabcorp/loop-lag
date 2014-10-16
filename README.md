@@ -10,7 +10,7 @@ that block the node event loop.
 var looplag = require('loop-lag-log');
 
 looplag(function (delay) {
-  console.log("Loop maximum delay for last 2000 ms is approx", delay.toFixed(2));
+  console.log("Loop maximum delay (using 500ms timeouts) for last 2000 ms is approx", delay.toFixed(2));
 }, 500, 2000);
 
 
