@@ -4,6 +4,8 @@ A node module that sets an interval and checks to see how delayed that interval
 was. This can be used as an approximate measure for long running operations
 that block the node event loop.
 
+Every 5 minutes (by default), the maximum delay in that time is passed to calling code.
+
 ## Example:
 
 ```
