@@ -1,5 +1,5 @@
 {
-  "name": "loop-lag-log",
+  "name": "loop-lag",
   "version": "0.0.2",
   "description": "Sample maximum event loop blocking",
   "main": "lib/index.js",

@@ -1,4 +1,4 @@
-# loop-lag-log
+# loop-lag
 
 A node module that sets an interval and checks to see how delayed that interval
 was. This can be used as an approximate measure for long running operations
@@ -7,10 +7,10 @@ that block the node event loop.
 ## Example:
 
 ```
-var looplag = require('loop-lag-log');
+var looplag = require('loop-lag');
 
 looplag(function (delay) {
-  console.log("Loop maximum delay for last 2000 ms is approx", delay.toFixed(2));
+  console.log("Loop delay (using 500ms timeouts) for last 2000ms is", delay.toFixed(2));
 }, 500, 2000);
 
 
