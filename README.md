@@ -44,7 +44,7 @@ server.listen(8080, function() {
 ```
 restify listening at http://0.0.0.0:8080
 got request
-Loop maximum delay for last 2000 ms is approx 573.987
-Loop maximum delay for last 2000 ms is approx 1.63
-Loop maximum delay for last 2000 ms is approx 1.43
+Loop delay (using 500ms timeouts) for last 2000ms is 573.987
+Loop delay (using 500ms timeouts) for last 2000ms is 1.63
+Loop delay (using 500ms timeouts) for last 2000ms is 1.43
 ```
