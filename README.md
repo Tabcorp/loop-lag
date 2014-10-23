@@ -43,7 +43,7 @@ server.listen(8080, function() {
 
 ```
 restify listening at http://0.0.0.0:8080
-got request
+Doing a slow operation
 Loop delay (using 500ms timeouts) for last 2000ms is 573.987
 Loop delay (using 500ms timeouts) for last 2000ms is 1.63
 Loop delay (using 500ms timeouts) for last 2000ms is 1.43
