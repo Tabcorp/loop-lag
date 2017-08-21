@@ -9,6 +9,6 @@
   "author": "",
   "license": "Copyright Tabcorp Pty Ltd 2014",
   "dependencies": {
-    "mocha": "^1.21.5"
+    "mocha": "^3.5.0"
   }
 }
